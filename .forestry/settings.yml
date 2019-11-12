@@ -5,11 +5,13 @@ admin_path: min
 webhook_url: 
 sections:
 - type: directory
-  path: content/blog-posts
-  label: Blog posts
+  path: content/blog-yazilari
+  label: Blog
   create: all
   match: "**/*"
   templates:
+  - about-page
+  - blog
   - blog
 - type: document
   path: content/about/info.md
